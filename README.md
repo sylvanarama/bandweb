@@ -1,2 +1,2 @@
-# madweb
-My personal website
+# bandweb
+Website for a celtic band
