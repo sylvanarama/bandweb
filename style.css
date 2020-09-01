@@ -1,3 +1,9 @@
+:root {
+  --main-bg-color: rgb(142,150,73);
+  --dark-accent-color: rgb(60,74,38);
+  --light-accent-color: rgb(190,150,65);
+}
+
 header {
   text-align: center;
   /* background: url('http://i.imgur.com/6dPLKFM.jpg'); */
@@ -9,7 +15,9 @@ header {
   font-family: 'Uncial Antiqua', monospace;
   /* font-family: 'Cormorant Unicase', monospace; */
   /* font-family: 'El Messiri'; */
-  margin: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
 }
 
 .menu {
@@ -57,7 +65,8 @@ li {
   font-size: 1rem;
 }
 body {
-  background: #506b35;
+  /* background: #506b35; */
+  background: var(--main-bg-color);
   /* font-family: 'Lucida Sans Unicode', 'Times', sans-serif; */
   /* font-family: 'Uncial Antiqua', monospace; */
   /* font-family: 'Cormorant Unicase', monospace; */
@@ -83,7 +92,7 @@ iframe {
   max-width: 580px;
   font-family: 'El Messiri';
   color: white;
-  background-color:  rgb(43, 63, 17);
+  background-color: var(--dark-accent-color);
 }
 
 #feedback-page{
@@ -98,7 +107,7 @@ iframe {
 }
 
 #form-div {
-  background-color:rgba(43, 63, 17, 0.5);
+  background-color:var(--dark-accent-color);
   padding-left:35px;
   padding-right:35px;
   padding-top:35px;
@@ -135,15 +144,15 @@ iframe {
 .feedback-input:focus{
   background: #fff;
   box-shadow: 0;
-  border: 3px solid rgb(43, 63, 17);
-  color: rgb(43, 63, 17);
+  border: 3px solid var(--dark-accent-color);
+  color: var(--dark-accent-color);
   outline: none;
   padding: 13px 13px 13px 13px;
 }
 
 .focused{
-  color:rgb(43, 63, 17);
-  border:rgb(43, 63, 17) solid 3px;
+  color:var(--dark-accent-color);
+  border:var(--dark-accent-color) solid 3px;
 }
 
 textarea {
@@ -163,7 +172,7 @@ input:focus, textarea:focus {
   margin:auto;
   border: #fbfbfb solid 2px;
   cursor:pointer;
-  background-color: rgb(43, 63, 17);
+  background-color: var(--dark-accent-color);
   color:white;
   font-family: 'El Messiri';
   font-size:24px;
@@ -179,7 +188,7 @@ input:focus, textarea:focus {
 
 #button-green:hover{
   background-color: white;
-  color: rgb(43, 63, 17);
+  color: var(--dark-accent-color);
 }
 
 @media only screen and (max-width: 580px) {
@@ -259,14 +268,14 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
-  background-color: rgb(43, 63, 17);
+  background-color: var(--dark-accent-color);
   padding: 1%;
 }
 
 .page-title {
   padding: 10px;
   text-align: center;
-  background-color: rgb(43, 63, 17);
+  background-color: var(--dark-accent-color);
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom:2%;
@@ -303,7 +312,7 @@ html {
 }
 
 .button:hover {
-  background-color: rgb(43, 63, 17);
+  background-color: var(--dark-accent-color);
 }
 
 @media screen and (max-width: 650px) {
