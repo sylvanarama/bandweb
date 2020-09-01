@@ -115,8 +115,7 @@ iframe {
   width: 450px;
   left: 50%;
   margin:auto;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .feedback-input {
@@ -124,13 +123,11 @@ iframe {
   font-family: 'El Messiri';
   font-weight:500;
   font-size: 18px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
   line-height: 22px;
   background-color: #fbfbfb;;
   padding: 13px 13px 13px 13px;
   text-align: left;
-  width:100%;
+  width:96%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -168,7 +165,7 @@ input:focus, textarea:focus {
 }
 
 #button-green{
-  width: 100%;
+  width: 96%;
   margin:auto;
   border: #fbfbfb solid 2px;
   cursor:pointer;
@@ -182,8 +179,6 @@ input:focus, textarea:focus {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   font-weight:700;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
 }
 
 #button-green:hover{
