@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PEATFIRE FLAME</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Uncial Antiqua' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Unicase' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><h1>PEATFIRE FLAME</h1></a>
+      <div class="menu"> 
+        <ul>   
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="bios.html">MEET THE BAND</a></li>
+          <li><a href="music.html">LISTEN/WATCH</a></li>
+          <li><a href="events.html">EVENTS</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+
+          <div class="dropdown">
+      <div class="dropbtn">
+        <img src="http://i.stack.imgur.com/Fw96Z.png" alt="MENU" height="30">
+      </div>
+      <div class="dropdown-content">
+          <a href="about.html">ABOUT</a>
+          <a href="bios.html">MEET THE BAND</a>
+          <a href="music.html">LISTEN/WATCH</a>
+          <a href="events.html">EVENTS</a>
+          <a href="gallery.html">GALLERY</a>
+          <a href="contact.html">CONTACT</a>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+    </header>
+
+      <div id="form-main">
+        <div id="form-div">
+          <h2>Drop us a line!</h2>
+          <form class="form" id="form1">
+
+            <p class="name">
+              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+            </p>
+
+            <p class="email">
+              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+            </p>
+
+            <p class="text">
+              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
+            </p>
+
+            <p class="submit">
+              <input type="submit" value="SEND" id="button-green"/>
+            </p>
+          </form>
+        </div>
+    </div>
+
+</body>
+</html>
