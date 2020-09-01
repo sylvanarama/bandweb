@@ -80,7 +80,10 @@ iframe {
   width: 100vw; 
   height: 52vw;
   max-height: 315px;
-  max-width: 560px;
+  max-width: 580px;
+  font-family: 'El Messiri';
+  color: white;
+  background-color:  rgb(43, 63, 17);
 }
 
 #feedback-page{
@@ -192,7 +195,7 @@ input:focus, textarea:focus {
     .dropdown{display:none;}
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 580px) {
   .menu{display:none;}
   .dropdown{display:inline;}
 }
@@ -256,13 +259,18 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  background-color: rgb(43, 63, 17);
+  padding: 1%;
 }
 
-.about-section {
+.page-title {
   padding: 10px;
   text-align: center;
   background-color: rgb(43, 63, 17);
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom:2%;
+  margin-top: 2%;
 }
 
 .container {
