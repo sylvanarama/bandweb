@@ -20,6 +20,18 @@ header {
   margin-top: -10px;
 }
 
+.splash-image {
+  text-align: center;
+  background: url('w&m.jpg');
+  background-size: cover;
+  background-position-y: 45%;
+  color: white;
+  font-family: 'Cormorant Unicase', monospace;
+  margin: 0px -10px 0px -10px;
+  height: 300px;
+  opacity: 0.8;
+}
+
 .menu {
     font-family: 'Fondamento';
 }
