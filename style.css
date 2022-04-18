@@ -18,17 +18,8 @@ header {
   text-align: center;
   /* background: url('http://i.imgur.com/6dPLKFM.jpg'); */
   /* background: url('tumblr_nxzbed0mrG1tv4hrso1_1280.jpg'); */
-  background: url('images/houndsknot.png');
-  background-size: clamp(400px, 100%, 1000px) auto;
-  background-repeat:no-repeat;
-  background-position-x: center;
-  background-position-y: 2vw;
-  /* max-width: 1000px; */
   color: white;
-  /* font-family: 'Uncial Antiqua', monospace; */
   font-family: 'AmericanUncial', monospace;
-  /* font-family: 'Cormorant Unicase', monospace; */
-  /* font-family: 'El Messiri'; */
   margin-left: -10px;
   margin-right: -10px;
   margin-top: -10px;
@@ -75,6 +66,11 @@ h1 {
   padding: 8vmin 6vmin 6vmin;
   margin: 0px;
   text-align: center;
+  background: url('images/houndsknot.png');
+  background-size: clamp(400px, 100%, 1000px) auto;
+  background-repeat:no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 h2 {
