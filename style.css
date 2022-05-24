@@ -84,6 +84,15 @@ h2 {
   text-align: center;
   font-family: 'Cormorant Unicase';
 }
+
+h3 {
+  font-size: 2rem;
+  font-weight:lighter;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Cormorant Unicase';
+}
 ul {
   padding: 10px;
   background: rgb(0,0,0,0.5);
@@ -95,13 +104,8 @@ li {
   font-size: 1rem;
 }
 body {
-  /* background: #506b35; */
   background: var(--main-bg-color);
-  /* font-family: 'Lucida Sans Unicode', 'Times', sans-serif; */
-  /* font-family: 'Uncial Antiqua', monospace; */
-  /* font-family: 'Cormorant Unicase', monospace; */
   font-family: 'El Messiri';
-  /* font-family: 'Fondamento'; */
   color: white;
 }
 p {
@@ -136,14 +140,12 @@ iframe {
   padding-top:30px;
   margin: auto;
   font-family: 'El Messiri';
+  margin-bottom:2rem;
 }
 
 #form-div {
   background-color:var(--dark-accent-color);
-  padding-left:35px;
-  padding-right:35px;
-  padding-top:35px;
-  padding-bottom:50px;
+  padding:5px;
   width: 450px;
   left: 50%;
   margin:auto;
@@ -298,22 +300,33 @@ html {
   padding: 0 4px;
   margin:auto;
   align-self: center;
-  max-width:75%;
+  max-width:80%;
+  margin-bottom:2%;
+}
+
+.overlay {
+    /* padding: 0 4px; */
+    margin:auto;
+    float:center;
 }
 
 .column {
   float: left;
-  width: 25%;
-  margin-bottom: 8px;
-  padding: 0 8px;
+  width: 23%;
+  display:table-cell;
+  background-color: var(--dark-accent-color);
+  padding: 1%;
+  margin: 1%;
+  position:relative;
+  /* padding-bottom:10%; */
 }
 
-.card {
+/* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
   background-color: var(--dark-accent-color);
   padding: 1%;
-}
+} */
 
 .page-title {
   /* padding: 10px; */
@@ -344,13 +357,19 @@ html {
   border: none;
   outline: 0;
   display: inline-block;
-  padding: 8px;
+  padding: 1%;
   color: white;
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 80%;
   font-family: 'El Messiri';
+  position:absolute;
+  bottom:3%;
+  left:10%;
+  margin:auto;
+  font-size: 1rem;
+  
 }
 
 .button:hover {
@@ -361,5 +380,23 @@ html {
   .column {
     width: 100%;
     display: block;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 48%;
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 98%;
+    flex: 98%;
+    max-width: 98%;
   }
 }

@@ -24,6 +24,8 @@
           <li><a href="bios.html">MEET THE BAND</a></li>
           <li><a href="music.html">LISTEN/WATCH</a></li>
           <li><a href="events.html">EVENTS</a></li>
+          <!-- <li><a href="https://hounds-of-cuchulain.tumblr.com/">NEWS</a></li> -->
+          <li><a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a></li>
           <li><a href="gallery.html">GALLERY</a></li>
           <li><a href="contact.html">CONTACT</a></li>
       </ul>
@@ -38,73 +40,99 @@
           <a href="bios.html">MEET THE BAND</a>
           <a href="music.html">LISTEN/WATCH</a>
           <a href="events.html">EVENTS</a>
+          <a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a>
           <a href="gallery.html">GALLERY</a>
           <a href="contact.html">CONTACT</a>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="script.js"></script>
+    <script src="morebtn.js"></script>
     </header>
-    
-  <div class="page-title">
+    <body>
+ 
+ 
+    <div class="page-title">
       <h2>Meet the Band</h2>
-  </div>
-  </body>
-    <div class="row">
+    </div>
 
+<!-- 
+    <div class="overlay" id="wolf-row" style="z-index:9; position:absolute;">
       <div class="column">
+      </div>
+
+      <div class="column" id="wolfcol" style="width:75%; float:right;">
         <div class="card">
-          <img src="images/wolf.jpg" alt="Wolf" style="width:100%">
-          <div class="container">
-            <h2>Wolf Edwards</h2>
-            <p class="title">Vocals - Guitar - Tenor Banjo</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p style="font-size:0.9em"><i>wolf.edwards.composer@gmail.com</i></p>
-            <p><button class="button">Contact</button></p>
-          </div>
+          <p>Born in Montreal, Quebec, Wolf has been writing and performing music for over twenty five years, starting out with punk rock bands in the late 80s and then metal in the 90s and 2000s. In between he managed to acquire degrees in classical and contemporary art music where he specialized in composition and theory. Having grown up listening to folk music, he always sang and played songs by popular American artists until finally settling on the Celtic, specifically Irish, street ballads for his choice of interpretation, He began by leading the group Knackers Yard for a number of years, then co-founded Dark Island, Peatfire Flame and finally The Hounds of Cuchulain. Wolf currently writes music for contemporary classical organizations worldwide, performs regularly with The Hounds and is currently writing an album of original folk song.</p>
         </div>
       </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="images/maddie.jpg" alt="Madeleine" style="width:100%">
-          <div class="container">
-            <h2>Madeleine Townley</h2>
-            <p class="title">Whistle - Harp - Vocals</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p><i>madeleine.townley@gmail.com</i></p>
-            <p><button class="button">Contact</button></p>
+    </div> -->
+
+    <div class="row" id="all-row" style="z-index: 8; position:relative;">
+
+      <!-- <div class="overlay" id="wolf-row" style="z-index:9; position:absolute;">
+        <div class="column">
+            <img src="images/wolf.jpg" alt="Wolf" style="width:100%">
+            <div class="container">
+              <h3>Wolf Edwards</h3>
+              <p class="title">Vocals - Guitar - Tenor Banjo</p>
+              <div class="button morebtn" id="wolfbtn">Less</div>
+            </div>
+        </div>
+  
+        <div class="column" id="wolfcol" style="width:75%; float:right;">
+          <div class="card">
+            <p>Born in Montreal, Quebec, Wolf has been writing and performing music for over twenty five years, starting out with punk rock bands in the late 80s and then metal in the 90s and 2000s. In between he managed to acquire degrees in classical and contemporary art music where he specialized in composition and theory. Having grown up listening to folk music, he always sang and played songs by popular American artists until finally settling on the Celtic, specifically Irish, street ballads for his choice of interpretation, He began by leading the group Knackers Yard for a number of years, then co-founded Dark Island, Peatfire Flame and finally The Hounds of Cuchulain. Wolf currently writes music for contemporary classical organizations worldwide, performs regularly with The Hounds and is currently writing an album of original folk song.</p>
           </div>
+        </div>
+  
+      </div> -->
+
+      <div class="column">
+        <img src="images/wolf.jpg" alt="Wolf" style="width:100%">
+        <div class="container">
+          <h3>Wolf Edwards</h3>
+          <p class="title">Vocals - Guitar - Tenor Banjo</p>
+          <!-- <div class="more-content" id="wolf-content">
+            <p>Born in Montreal, Quebec, Wolf has been writing and performing music for over twenty five years, starting out with punk rock bands in the late 80s and then metal in the 90s and 2000s. In between he managed to acquire degrees in classical and contemporary art music where he specialized in composition and theory. Having grown up listening to folk music, he always sang and played songs by popular American artists until finally settling on the Celtic, specifically Irish, street ballads for his choice of interpretation, He began by leading the group Knackers Yard for a number of years, then co-founded Dark Island, Peatfire Flame and finally The Hounds of Cuchulain. Wolf currently writes music for contemporary classical organizations worldwide, performs regularly with The Hounds and is currently writing an album of original folk song.</p>
+          </div>
+          <div class="button morebtn" id="wolfbtn">More</div> -->
         </div>
       </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="images/briana.jpg" alt="Briana" style="width:100%">
-          <div class="container">
-            <h2>Briana Kennedy</h2>
-            <p class="title">Fiddle</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p><i>brianak4@gmail.com</i></p>
-            <p><button class="button">Contact</button></p>
-          </div>
+      <div class="column" id="madcol">
+        <img src="images/maddie.jpg" alt="Madeleine" style="width:100%">
+        <div class="container">
+          <h3>Madeleine Townley</h3>
+          <p class="title">Whistle - Harp - Vocals</p>
+
         </div>
+        <!-- <button class="button morebtn">More</button> -->
       </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="images/devon.jpg" alt="Devo" style="width:100%">
-          <div class="container">
-            <h2>Devon Bernard</h2>
-            <p class="title">5-string banjo - guitar </p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p><i>devobernard@gmail.com</i></p>
-            <p><button class="button">Contact</button></p>
-          </div>
+      <div class="column" id="bricol">
+        <img src="images/briana.jpg" alt="Briana" style="width:100%">
+        <div class="container">
+          <h3>Briana Kennedy</h3>
+          <p class="title">Fiddle</p>
+
         </div>
+        <!-- <button class="button morebtn">More</button> -->
+      </div>
+
+      <div class="column" id="devcol">
+        <img src="images/devon.jpg" alt="Devo" style="width:100%">
+        <div class="container">
+          <h3>Devon Bernard</h3>
+          <p class="title">5-string banjo - guitar</p>          
+        </div>
+        <!-- <button class="button morebtn">More</button> -->
       </div>
 
     </div>
+
+
 
   </body>
 </html>
