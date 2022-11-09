@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: rgb(0,0,0);
-  --dark-accent-color: rgb(59, 58, 55);
+  /* --dark-accent-color: rgb(59, 58, 55); */
+  --dark-accent-color:#183a32;
   --light-accent-color: rgb(51, 113, 94);
 }
 
@@ -14,39 +15,63 @@
   src: url("American\ Uncial\ Regular/American\ Uncial\ Regular.otf");
   }
 
+  @font-face {
+    font-family: "IrishUncial";
+    src: url("irish-uncialfabeta/IrishUncialfabeta-Bold.ttf");
+    }
+
 header {
   text-align: center;
-  background: url('images/houndsknot.png');
-  background-size: clamp(100px, 150%, 800px) auto;
+  /* background: url('images/knot_profile_hounds.png'); */
+  /* background: url('images/houndsknot.png'); */
+  height:10em;
+  background-size: clamp(100px, 150%, 1500px) auto;
   background-repeat:no-repeat;
-  background-position-x: center;
-  background-position-y: 50%;
+  background-position-x: 50%;
+  background-position-y: 15%;
+  padding:2rem;
+  padding-top:2.5rem;
   color: white;
-  font-family: 'AmericanUncial', monospace;
+  /* font-family: 'AmericanUncial', monospace; */
+  font-family: 'IrishUncial', monospace; 
   margin-left: -10px;
   margin-right: -10px;
   margin-top: -10px;
+  background-color: black;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: 'El Messiri';
+  color: white;
+  /* background-image: url('images/hounds-profile-wide1.png'); */
+  background-size: clamp(100px, 150%, 1000px) auto;
+  background-repeat:no-repeat;
+  background-position-x: 50%; 
+  background-position-y: -25em;
 }
 
 .splash-image {
   text-align: center;
-  background: url('images/insta_band_photo_v3.jpg');
-  background-size:contain;
+  background-image: url('images/hounds-profile-wide1.png');
+  background-size: clamp(100px, 150%, 1000px) auto;
   background-repeat:no-repeat;
-  background-position-x: center;
-  /* background-position-y: 45%; */
+  background-position-x:center;
+  background-position-y: 35%;
   color: white;
   font-family: 'Cormorant Unicase', monospace;
   margin: 0px -10px 0px -10px;
   width:100%;
-  /* height:400px; */
+  height:500px;
   /* opacity: 0.8; */
   max-width:1000px;
   margin:auto;
 }
 
 .menu {
-    font-family: 'Fondamento';
+    font-family: 'IrishUncial';
+    height:100%;
+    float:right;
 }
 a {
   color: white;
@@ -64,11 +89,12 @@ a:hover {
 
 h1 {
   font-size: 2rem;
-  font-size: 9vmin;
+  font-size: 6vmin;
   font-weight:lighter;
-  padding: 8vmin 6vmin 6vmin;
+  /* padding: 8vmin 6vmin 6vmin; */
+  /* padding-top:5vmin; */
   margin: 0px;
-  text-align: center;
+  text-align:left;
   /* background: url('images/houndsknot.png');
   background-size: clamp(100px, 100%, 1000px) auto;
   background-repeat:no-repeat;
@@ -95,19 +121,20 @@ h3 {
 }
 ul {
   padding: 10px;
+  padding-top: 20px;
   background: rgb(0,0,0,0.5);
-  margin-top: 0px;
+  margin:auto;
+  height:100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 li {
   display: inline;
   padding: 0px 10px;
   font-size: 1rem;
 }
-body {
-  background: var(--main-bg-color);
-  font-family: 'El Messiri';
-  color: white;
-}
+
 p {
   display:block;
   font-size: 1rem;
@@ -228,12 +255,12 @@ input:focus, textarea:focus {
   }
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 950px) {
     .menu{display:block;}
     .dropdown{display:none;}
 }
 
-@media all and (max-width: 580px) {
+@media all and (max-width: 1000px) {
   .menu{display:none;}
   .dropdown{display:inline;}
   /* .splash-image{margin-top:0.8rem !important;} */
@@ -245,8 +272,10 @@ input:focus, textarea:focus {
   z-index:1000;
   height:30px;
   position: relative;
-  background:rgb(50, 50, 50, 0.5);
-  width:100%;
+  /* background:rgb(50, 50, 50, 0.5); */
+  width:25%;
+  float: right;
+  /* align-items: center; */
 }
 
 /* Dropdown Button */
@@ -335,6 +364,18 @@ html {
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin:2%;
+}
+
+.content-box {
+  /* padding: 10px; */
+  text-align: center;
+  background-color: #3b3a3771;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin:2%;
+}
+
+#main-body {
 }
 
 .container {
