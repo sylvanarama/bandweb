@@ -24,13 +24,15 @@ header {
   text-align: center;
   /* background: url('images/knot_profile_hounds.png'); */
   /* background: url('images/houndsknot.png'); */
-  height:10em;
+  /* height:10em; */
+  height: clamp(100px, 20vw, 170px);
+  /* height: clamp(100px, 5vw, 160px); */
   background-size: clamp(100px, 150%, 1500px) auto;
   background-repeat:no-repeat;
   background-position-x: 50%;
   background-position-y: 15%;
-  padding:2rem;
-  padding-top:2.5rem;
+  padding:clamp(16px, 5vw, 32px);
+  padding-top:clamp(20px, 8vw, 40px);
   color: white;
   /* font-family: 'AmericanUncial', monospace; */
   font-family: 'IrishUncial', monospace; 
@@ -38,6 +40,9 @@ header {
   margin-right: -10px;
   margin-top: -10px;
   background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 body {
@@ -53,18 +58,19 @@ body {
 
 .splash-image {
   text-align: center;
-  background-image: url('images/hounds-profile-wide1.png');
-  background-size: clamp(100px, 150%, 1000px) auto;
+  background-image: url('images/knot_profile-full.png');
+  background-size: clamp(100px, 200%, 2000px) auto;
+  /* background-size:cover; */
   background-repeat:no-repeat;
   background-position-x:center;
-  background-position-y: 35%;
+  background-position-y: 45%;
   color: white;
   font-family: 'Cormorant Unicase', monospace;
   margin: 0px -10px 0px -10px;
   width:100%;
-  height:500px;
+  height: clamp(200px, 50vw, 450px);
   /* opacity: 0.8; */
-  max-width:1000px;
+  /* max-width:1000px; */
   margin:auto;
 }
 
@@ -72,7 +78,11 @@ body {
     font-family: 'IrishUncial';
     height:100%;
     float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 a {
   color: white;
   text-decoration: none;
@@ -88,8 +98,8 @@ a:hover {
 }
 
 h1 {
-  font-size: 2rem;
-  font-size: 6vmin;
+  font-size: clamp(25px, 6vmin, 6vmin);
+
   font-weight:lighter;
   /* padding: 8vmin 6vmin 6vmin; */
   /* padding-top:5vmin; */
@@ -270,12 +280,14 @@ input:focus, textarea:focus {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   z-index:1000;
-  height:30px;
+  /* height:30px; */
+  height:100%;
   position: relative;
   /* background:rgb(50, 50, 50, 0.5); */
   width:25%;
   float: right;
-  /* align-items: center; */
+  overflow:visible;
+  
 }
 
 /* Dropdown Button */
@@ -284,6 +296,10 @@ input:focus, textarea:focus {
   height:30px;
   outline:0;
   background:rgb(0,0,0,0.5);
+  margin:auto;
+  position: relative;
+  top:calc(50% - 15px);
+
 }
 
 /* Dropdown button on hover & focus */
@@ -294,8 +310,12 @@ input:focus, textarea:focus {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: relative;
-  background-color: rgb(50,50,50, 0.3);
+  position: absolute;
+  background-color: rgb(0,0,0, 0.7);
+  top: calc(100% + clamp(16px, 5vw, 32px));
+  width:100vw;
+  left:-75vw;
+  padding:5px;
 }
 
 /* Links inside the dropdown */
@@ -307,11 +327,11 @@ input:focus, textarea:focus {
   display: block;
   margin:5px;
   margin-top:0px;
-  background-color: rgb(50, 50, 50, 0.2);
+  background-color: rgb(50, 50, 50, 0.5);
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background:rgb(50, 50, 50, 0.5);}
+.dropdown-content a:hover {background:rgb(50, 50, 50, 0.8);}
 
 html {
   box-sizing: border-box;
