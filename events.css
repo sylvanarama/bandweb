@@ -1,0 +1,86 @@
+* { box-sizing: border-box; }
+
+:root {
+    --main-bg-color: rgb(0,0,0);
+    /* --dark-accent-color: rgb(59, 58, 55); */
+    --med-accent-color:#142f29;
+    --dark-accent-color:#0d1d1a;
+    --light-accent-color: rgb(51, 113, 94);
+  }
+
+.event {
+    /* background-color: var(--dark-accent-color); */
+    background-color: #3b3a3771;;
+    padding: clamp(5px, 5vw, 20px);
+    margin-bottom:clamp(5px, 5vw, 30px);
+}
+
+.title-bar{
+    display:flex;
+    justify-content: space-between;
+    line-height:normal;
+}
+
+.title {
+    font-size: clamp(20px, 5vw, 25px);
+    align-self:center;
+    margin-right:1em;
+    font-family:'IrishUncial';
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-size: clamp(15px, 5vw, 25px);
+    font-weight:lighter;
+}
+
+.date {
+    background:black;
+    /* width: clamp(75px, 15vw, 150px);
+    height: clamp(75px, 10vw, 150px); */
+    padding:clamp(8px, 1vw, 20px);
+    /* font-weight:lighter; */
+    text-align: center;
+    font-family: 'El Messiri';
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    white-space: normal;
+    /* border:2px solid white; */
+    font-size: clamp(15px, 3vw, 20px);
+    max-width:40%;
+}
+
+.event-content {
+    padding-top:clamp(8px, 1vw, 20px);
+}
+
+
+p {
+    background:none;
+    margin:0;
+    padding:0;
+    font-size: inherit;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:clamp(8px, 1vw, 20px);
+    margin-bottom:clamp(8px, 1vw, 20px);
+    width:100%;
+    max-width:1023px;
+  }
+
+  .caption {
+    font-style: italic;
+    font-family:'Raleway';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: inherit;
+    text-align: center;
+    margin-top:clamp(8px, 1vw, 20px);
+  }

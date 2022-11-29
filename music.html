@@ -3,6 +3,7 @@
   <head>
     <title>The Hounds of Cuchulain</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="music.css">
     <meta charset="utf-8"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Uncial Antiqua' rel='stylesheet'>
@@ -15,7 +16,7 @@
 
   <body>
     <header>
-      <a href="index.html"><h1>The Hounds <br>of Cuchulain</h1></a>
+      <a href="index.html"><h1>The Hounds<br>of Cuchulain</h1></a>
       <div class="menu"> 
         <ul>   
           <li><a href="about.html">ABOUT</a></li>
@@ -48,32 +49,54 @@
 
     </header>
 
-    <div class="page-title">
+    <div class="page-title-full">
         <h2>Listen & Watch</h2>
     </div>
+      
+    <div class="flex-row">
 
+      <div class="flex-col" id="bandcamp-row">
+        <div class="sticky-container">
+          <!-- <iframe style="border: 0; width: 350px; height: 786px; margin:0;" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe> -->
+          <iframe id="wide" style="border: 0; width: 100%; height: 70vh; margin:0;" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe> 
+          <iframe id="medium" style="border: 0; width: 100%; height: 85vh; margin:0;" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
+          <iframe id="small" style="border: 0; width: 100%; height: 120px; margin:0;" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
+        </div>
+      </div>
+    
+    <div class="flex-col" style="padding-top:0;">
 
-  <div class="page-title" style="width:90%; margin:auto; max-width:550px; margin-bottom:5%; padding:3%;">
-      <p><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Listen to our album "Rebels, Rogues, and Roustabouts" on bandcamp!</a></p>
-      <img src="images/cover11.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">  
+      <div class="flex-item">     
+          <iframe class="youtube" src="https://www.youtube.com/embed/oX2jh_X4PuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="flex-item">  
+        <div>  
+          <iframe  class="youtube" src="https://www.youtube.com/embed/lwi8qA2vOZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+      </div>
+
+      <div class="flex-item">
+        <div>        
+          <iframe class="youtube" src="https://www.youtube.com/embed/--mlbAVoxHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="flex-item">
+        <div>        
+          <iframe class="youtube" src="https://www.youtube.com/embed/CvV_G5_HidY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="flex-item">
+        <div>        
+          <iframe class="youtube" src="https://www.youtube.com/embed/ReqipTd2Kg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 
-  <div>
-      <div style="width:60%; margin:auto;">
-        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fhounds.of.cuchulain%2Fvideos%2F609515620471509%2F&show_text=false&width=560&t=0" width="80%" height="auto" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-      </div>
-      <p>
-        A glimpse into our session at the UVic recording studio back in February 2022
-      </p> 
-    </div>
-
-    <div>
-      <div>        
-        <iframe width="90%" height="auto" src="https://www.youtube.com/embed/ReqipTd2Kg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <p>
-        A sampling of some of our songs from a show at one of our regular haunts - the Oaks Restaurant in Oak Bay!
-      </p> 
-    </div>
   </body>
 </html>

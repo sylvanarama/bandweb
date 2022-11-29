@@ -1,7 +1,8 @@
 :root {
   --main-bg-color: rgb(0,0,0);
   /* --dark-accent-color: rgb(59, 58, 55); */
-  --dark-accent-color:#183a32;
+  --med-accent-color:#142f29;
+  --dark-accent-color:#0d1d1a;
   --light-accent-color: rgb(51, 113, 94);
 }
 
@@ -113,7 +114,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  /* font-size: 2rem;
+  height: clamp(100px, 15vw, 250px); */
+  font-size: clamp(40px, 8vw, 75px);
   font-weight:lighter;
   padding: 1rem;
   margin: 1rem;
@@ -124,11 +127,21 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight:lighter;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  font-family: 'Cormorant Unicase';
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight:lighter;
   padding: 0;
   margin: 0;
   text-align: center;
   font-family: 'Cormorant Unicase';
 }
+
 ul {
   padding: 10px;
   padding-top: 20px;
@@ -153,7 +166,7 @@ p {
   margin:1rem;
   /* margin: */
 }
-iframe {
+/* iframe {
   position: relative;
   margin: auto;
   top: 0;
@@ -166,7 +179,7 @@ iframe {
   font-family: 'El Messiri';
   color: white;
   background-color: var(--dark-accent-color);
-}
+} */
 
 #feedback-page{
   text-align:left;
@@ -370,6 +383,32 @@ html {
   /* padding-bottom:10%; */
 }
 
+.front-page-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin:auto;
+  align-self: center;
+  width:100%;
+  margin-bottom:2%;
+  justify-content: space-evenly;
+}
+
+.front-page-col {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  text-align: left;
+  justify-content:flex-start;
+  flex-wrap:nowrap;
+  margin:1vmin;
+  padding: clamp(5px, 2vw, 18px);
+  width:45%;
+  background-color: rgb(50, 50, 50, 0.5);
+}
+
 /* .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
@@ -384,6 +423,25 @@ html {
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin:2%;
+}
+
+.page-title-full {
+  /* padding: 10px; */
+  text-align: center;
+  /* background-color: var(--dark-accent-color); */
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin:0;
+  margin-bottom:2%;
+  background-image: url('images/knot_header.png');
+  height: clamp(100px, 15vw, 250px);
+  /* background-size:cover; */
+  background-size: 1000px;
+  background-position-y: 40%;
+  background-position-x: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content-box {
