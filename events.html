@@ -3,6 +3,7 @@
   <head>
     <title>The Hounds of Cuchulain</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="events.css">
     <meta charset="utf-8"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Uncial Antiqua' rel='stylesheet'>
@@ -16,55 +17,98 @@
   <body>
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="jLpSBzKm"></script>
-    <header>
-      <a href="index.html"><h1>The Hounds <br>of Cuchulain</h1></a>
-      <div class="menu"> 
-        <ul>   
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="bios.html">MEET THE BAND</a></li>
-          <li><a href="music.html">LISTEN/WATCH</a></li>
-          <li><a href="events.html">SHOWS</a></li>
-          <!-- <li><a href="https://hounds-of-cuchulain.tumblr.com/">NEWS</a></li> -->
-          <li><a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a></li>
-          <li><a href="gallery.html">GALLERY</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </div>
+<header>
+  <!-- <a href="index.html"><h1>The Hounds <br>of Cuchulain</h1></a> -->
+  <a href="index.html" class="flex-header" style="display:flex; flex-wrap:nowrap; flex-direction:row;flex: 0 1 auto; ">
+    <h1>The Hounds</h1>
+    <h1> of Cuchulain</h1>
+  </a>
+  <div class="menu"> 
+    <ul>   
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="music.html">LISTEN/WATCH</a></li>
+      <li><a href="events.html">SHOWS</a></li>
+      <!-- <li><a href="https://hounds-of-cuchulain.tumblr.com/">NEWS</a></li> -->
+      <li><a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </div>
 
-         <div class="dropdown">
-      <div class="dropbtn">
-        <img src="http://i.stack.imgur.com/Fw96Z.png" alt="MENU" height="30">
-      </div>
-      <div class="dropdown-content">
-          <a href="about.html">ABOUT</a>
-          <a href="bios.html">MEET THE BAND</a>
-          <a href="music.html">LISTEN/WATCH</a>
-          <a href="events.html">SHOWS</a>
-          <a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a>
-          <a href="gallery.html">GALLERY</a>
-          <a href="contact.html">CONTACT</a>
-      </div>
+  <div class="dropdown">
+    <div class="dropbtn">
+      <img src="http://i.stack.imgur.com/Fw96Z.png" alt="MENU" height="30">
+    </div> 
+
+    <div class="dropdown-content">
+      <a href="about.html">ABOUT</a>
+      <a href="music.html">LISTEN/WATCH</a>
+      <a href="events.html">SHOWS</a>
+      <a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="contact.html">CONTACT</a>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="script.js"></script>
 
-    </header>
+  </div>
+
+  <div class="dropdown-content">
+      <a href="about.html">ABOUT</a>
+      <a href="music.html">LISTEN/WATCH</a>
+      <a href="events.html">SHOWS</a>
+      <a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="contact.html">CONTACT</a>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="script.js"></script>
+</header>
 
     <div class="page-title-full">
-        <h2>Upcoming and Past Shows</h2>
+        Upcoming & Past Shows
+    </div>
+
+    <div class="main-body">
+
+      <div class="content-box" style="padding:1rem; background:#0d1d1a">
+        <div class="month" style="background:black; color:white;">Next Shows</div>
+        <div class="month">January</div>
+        <!-- <h3 style="margin-bottom:0;background:rgb(51, 113, 94); color:black; font-weight:bold;">JANUARY</h3> -->
+        <a class="event-text" href="https://fb.me/e/3d3RInbSO"><strong>Mary's Bleue Moon</strong><br>Thursday January 19th 7-9pm</a>
+        <a class="event-text" href="https://fb.me/e/2u9ZcyxdE"><strong>The Oaks Restaurant</strong><br>Friday January 20th 6-8pm</a>
+        <a class="event-text" href="https://fb.me/e/2voGriZkQ"><strong>Pagliacci's</strong><br>Saturday January 21st 9-11pm</a>
+        <a class="event-text" href="https://fb.me/e/37bXwXGec"><strong>Robbie Burns Day with the Cowichan Folk Guild</strong><br>Friday January 27th 8pm<br>Vimy Hall, Duncan BC<br>Tickets $10, $5 for Folk Club members</a>
+        <a class="event-text" href="https://fb.me/e/3Pnyz5N7Y"><strong>Mary's Bleue Moon</strong><br>Saturday January 28th 8-10pm</a>
+        <div class="month">February</div>
+        <div class="event-text"><a href=""><strong>Celtic Night at the Paul Philips Hall</strong><br>Friday February 10th 8-10pm, All Ages, Tickets $15</a></div>
+        <div class="event-text"><a href="https://fb.me/e/3Pnyz5N7Y"><strong>Mary's Bleue Moon</strong><br>Saturday February 11th 8-10pm</a></div>
+        <div class="event-text"><a href="https://fb.me/e/3d3RInbSO"><strong>Mary's Bleue Moon</strong><br>Thursday February 16th 7-9pm</a></div>
+        <div class="event-text"><a href="https://fb.me/e/2u9ZcyxdE"><strong>The Oaks Restaurant</strong><br>Friday February 17th 6-8pm</a></div>
+      </div>
+
+      <div class="content-box" style="padding:1rem;">
+        <div class="month" style="background:black; color:white;">Past Shows</div>
+        <a class="event-text" style="background:rgb(50,50,50,0.5);" href=""><strong>Mary's Bleue Moon New Year's Celebration</strong><br>Saturday December 31st 8-10pm</a> 
+        <a class="event-text" style="background:rgb(50,50,50,0.5);" href=""><strong>The Oaks Restaurant</strong><br>Friday December 30th 6-8pm</a>
+        <a class="event-text" style="background:rgb(50,50,50,0.5);" href="eventbrite.com/e/join-our-jolly-wassail-celtic-yuletide-with-the-hounds-of-cuchulain-tickets-482014928627"><strong>Celtic Yuletide at the Paul Philips Hall</strong><br>Friday December 23rd 7-10pm, All Ages, Tickets $15</a>
+        <a class="event-text" style="background:rgb(50,50,50,0.5);" href="https://allevents.in/victoria/hounds-of-cuchulain-at-the-loghouse-pub/80002246868437?ref=popup-sharing-modal"><strong>The Loghouse Pub</strong><br>Friday December 16th 8-11pm</a> 
+        <a class="event-text" style="background:rgb(50,50,50,0.5);" href="https://allevents.in/victoria/the-gift-of-music/200023721923607"><strong>"the Gift of Music" Benefit Concert at Quadratic Sound</strong><br>Friday December 9th 8pm-12am</a>
+        <a class="event-text" style="background:rgb(50,50,50,0.5);" href=""><strong>Mary's Bleue Moon</strong> Thursday December 1st 7-9pm</a>
+      </div>
+
     </div>
 
     <!-- <div class="column">  -->
-      <div class="row" style="width:90%; max-width:700px;">
+      <div class="row" style="width:90%; max-width:700px;margin:auto">
         <img src="images/show_linuep_december1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
       </div>
-      <div class="row" style="width:90%; max-width:700px;">
+      <div class="row" style="width:90%; max-width:700px;margin:auto"">
         <img src="images/october-lineup.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
       </div>
-      <div class="row" style="width:90%; max-width:700px;">
+      <div class="row" style="width:90%; max-width:700px;margin:auto"">
         <img src="images/august-linuep.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
       </div>
-      <div class="row" style="width:90%; max-width:700px;">
+      <div class="row" style="width:90%; max-width:700px;margin:auto"">
         <img src="images/july-lineup.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
       </div>
       <!-- <div class="row" style="width:70%">
@@ -84,5 +128,16 @@
 
  
     </div>
+
+    <footer>
+      <img src='images/hounds_logo_transparent.png' alt="logo" height="80px" style="margin:10px;">
+      <h3 id="footer-text">hounds.of.cuchulain<wbr>@gmail.com</h3>
+      <!-- <div>
+        <a href="https://www.facebook.com/hounds.of.cuchulain" class="fa fa-facebook"></a>
+        <a href="https://www.youtube.com/channel/UCsQGZCNzqc6KKoYtNb3ojAQ/featured" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/hounds_of_cuchulain/" class="fa fa-instagram"></a>
+      </div> -->
+    </footer>
+
   </body>
 </html>

@@ -3,6 +3,9 @@
   <head>
     <title>The Hounds of Cuchulain</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="music.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="frontpage.css">
     <meta charset="utf-8"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Uncial Antiqua' rel='stylesheet'>
@@ -14,13 +17,15 @@
   </head>
 
   <body>
-    <header>
+    <header style="background:black;">
       <!-- <a href="index.html"><h1>The Hounds <br>of Cuchulain</h1></a> -->
-      <a href="index.html"><h1>The Hounds <br>of Cuchulain</h1></a>
+      <a href="index.html" class="flex-header" style="display:flex; flex-wrap:nowrap; flex-direction:row;flex: 0 1 auto; ">
+        <h1>The Hounds</h1>
+        <h1> of Cuchulain</h1>
+      </a>
       <div class="menu"> 
         <ul>   
           <li><a href="about.html">ABOUT</a></li>
-          <li><a href="bios.html">MEET THE BAND</a></li>
           <li><a href="music.html">LISTEN/WATCH</a></li>
           <li><a href="events.html">SHOWS</a></li>
           <!-- <li><a href="https://hounds-of-cuchulain.tumblr.com/">NEWS</a></li> -->
@@ -37,7 +42,6 @@
 
         <div class="dropdown-content">
           <a href="about.html">ABOUT</a>
-          <a href="bios.html">MEET THE BAND</a>
           <a href="music.html">LISTEN/WATCH</a>
           <a href="events.html">SHOWS</a>
           <a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a>
@@ -49,7 +53,6 @@
 
       <div class="dropdown-content">
           <a href="about.html">ABOUT</a>
-          <a href="bios.html">MEET THE BAND</a>
           <a href="music.html">LISTEN/WATCH</a>
           <a href="events.html">SHOWS</a>
           <a href="https://www.facebook.com/hounds.of.cuchulain">NEWS</a>
@@ -63,56 +66,129 @@
 
    
   <div class="splash-image">
-    <!-- <img src='images/hounds-profile-wide1.png' alt="Wolf" style="width:100%">  -->
   </div>
 
-  <div id="main-body">
+  <div class="flex-row" id="front-page-content">
 
-  <div style="width:100%; max-width:1000px; margin:auto;">
-    <div class="page-title">
-      <h3>News & Upcoming</h3>
-  </div>
-  
-
-  <div class="content-box">
-    <img src="images/little-fernwood-yule-banner-final.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
-    <h3 style="padding:0;margin-bottom:0;"><strong>FRIDAY DECEMBER 23rd</strong></h3>
-    <h3 style="padding:0;margin-bottom:0;">The Fernwood Community Association</h3>
-    <h3 style="padding:0;margin-bottom:0;">Music 7-10pm, All Ages, Tickets $15</h3>
-    <h4>Join the Hounds for a Celtic Yuletide celebration with Irish, Scottish, and English folk songs, dancing, and traditioal Yuletide treats!</h4>
-    <h3 style="padding:0;margin-bottom:0;color:firebrick;"><strong>NEARLY SOLD OUT - RESERVE YOUR SPOT NOW!</strong></h3>
-    <a href="https://www.eventbrite.com/e/join-our-jolly-wassail-celtic-yuletide-with-the-hounds-of-cuchulain-tickets-482014928627"><div class="button">TICKETS</div></a>
-    <!-- <button>tickets</button> -->
-  </div>
-
-  <div class="content-box" style="padding:1rem;">
-    <h3 style="background:black;">Next Shows</h3>
-    <h3 style="margin-bottom:0;background:rgb(50,50,50,0.5);"><a href=""><strong>Mary's Bleue Moon</strong> Thursday December 1st 7-9pm</a></h3>
-    <h3 style="margin-bottom:0;background:rgb(50,50,50,0.5);"><a href="https://allevents.in/victoria/the-gift-of-music/200023721923607"><strong>"the Gift of Music" Benefit Concert at Quadratic Sound</strong><br> Friday December 9th 8pm-12am</a></h3>
-    <h3 style="margin-bottom:0;background:rgb(50,50,50,0.5);"><a href="https://allevents.in/victoria/hounds-of-cuchulain-at-the-loghouse-pub/80002246868437?ref=popup-sharing-modal"><strong>The Loghouse Pub</strong> Friday December 16th 8-11pm</a></h3>
-    <h3 style="margin-bottom:0;background:rgb(50,50,50,0.5);"> <a href="eventbrite.com/e/join-our-jolly-wassail-celtic-yuletide-with-the-hounds-of-cuchulain-tickets-482014928627"><strong>Celtic Yuletide at the Paul Philips Hall</strong><br>Friday December 23rd 7-10pm, All Ages, Tickets $15</a></h3>
-    <h3 style="margin-bottom:0;background:rgb(50,50,50,0.5);"><strong>The Oaks Restaurant</strong> Friday December 30th 6-8pm</h3>
-    <h3 style="margin-bottom:0;background:rgb(50,50,50,0.5);"><strong>Mary's Bleue Moon New Year's Celebration</strong><br>Saturday December 31st 8-10pm</h3>
-    
-  </div>
-
-  <div class="content-box">
-    <h3 style="padding-bottom:0;">Our first album: "Rebels, Rogues, & Roustabouts" is here!</h3>
-    <h3 style="font-size:1.5rem;padding-top:0;"><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Listen on bandcamp</a> or purchase at our shows for $10</h3>
-    <div class="row" style="width:90%; max-width:700px;">
-      <img src="images/cover11.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
-    </div>
-<br>
-  </div>
-
-  <div class="content-box">
-    <h3 style="padding-bottom:0;margin-bottom:0;">T-shirts have arrived!</h3>
-    <h3 style="font-size:1.5rem;padding-top:0;">Hound logo in white or green on black, regular and fitted, S-XXXL $20</h3>
-    <h3 style="font-size:1.5rem;padding-top:0;">UPDATE: all sizes back in</h3>
-  </div>
+    <!-- <div class="flex-col" id="media-row">
  
-  </div>
+      <iframe  id="front-page-bandcamp-small" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
+      <iframe id="front-page-bandcamp"  src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
 
+      <div class="flex-item" id="front-page-youtube">     
+        <iframe class="youtube" src="https://www.youtube.com/embed/oX2jh_X4PuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="flex-item" id="front-page-youtube">     
+        <iframe class="youtube" src="https://www.youtube.com/embed/oX2jh_X4PuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    </div> -->
+
+    <div class="flex-col" id="news-row">
+      <h3 style="background:black;font-size: 1.5em;margin-bottom:0.5rem;padding:0.5rem">News & Upcoming</h3>
+      <div class="news-box">
+        <img src="images/little-fernwood-yule-banner-final.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        <div class="news-title">FRIDAY DECEMBER 23rd</div>
+        <div class="news-text1">The Fernwood Community Association</div>
+        <div class="news-text1">Music 7-10pm, All Ages, Tickets $15</div>
+        <div class="news-text2">Join the Hounds for a Celtic Yuletide celebration with Irish, Scottish, and English folk songs, dancing, and traditioal Yuletide treats!</div>
+        <div class="news-text2" style="color:firebrick;"><strong>SOLD OUT</strong></div>
+        <a class="button" href="https://www.eventbrite.com/e/join-our-jolly-wassail-celtic-yuletide-with-the-hounds-of-cuchulain-tickets-482014928627">TICKETS</a>
+      </div>
+
+      <div class="news-box">
+        <div class="news-title">Our first album: "Rebels, Rogues, & Roustabouts" is here!</div>
+        <div class="news-text1"><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Listen on bandcamp</a> or purchase at our shows for $10</div>
+        
+        
+        <div class="row" style="width:90%; max-width:700px; aspect-ratio: 1 / 1.3; margin:auto;">
+          <iframe style="border: 0; width: 100%; height:100%; margin:auto;" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
+          <!-- <img src="images/cover11.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow"> -->
+        </div>
+        <br>
+      </div>
+    
+      <div class="news-box">
+        <div class="news-title">T-shirts have arrived!</div>
+        <div class="news-text2">Hound logo in white or green on black, regular and fitted, S-XXXL $20</div>
+        <div class="news-text2">UPDATE: all sizes back in</div>
+      </div>
+
+
+    </div>
+
+    <div class="flex-col" id="show-row">
+
+      <div id="top-row">
+      <div class="show-box" id="description">
+        <h3 style="font-size:inherit;margin:0;width:100%;padding:0; font-family: inherit; font-weight:lighter;">
+          Welcome! The Hounds of Cuchulain are a four-piece folk band based in Victoria BC,
+          who perform a wide selection of Irish, Scottish, English, and original songs in the Celtic tradition.
+          <a href="about.html" style="color:rgb(51, 113, 94); text-decoration:underline;">Read More</a>
+        </h3>
+      </div>
+
+      <div class="show-box" id="bandcamp">
+        <h3 id="bandcamp-title">Listen to our album on Bandcamp!</h3>
+        <iframe id="bandcamp-big" style="aspect-ratio: 1 / 1" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
+        <iframe  id="bandcamp-small" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
+        <!-- <iframe id="bandcamp-slim" style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=small/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe> -->
+        <iframe id="bandcamp-slim" style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=358521156/size=small/bgcol=ffffff/linkcol=333333/transparent=true/" seamless><a href="https://houndsofcuchulain.bandcamp.com/album/rebels-rogues-roustabouts">Rebels, Rogues, &amp; Roustabouts by The Hounds of Cuchulain</a></iframe>
+      </div>
+    </div>
+      
+
+      <div class="show-box">
+        <!-- <div class="show" style="background:black; width:100%;">Next Shows</div> -->
+        <h3 style="background:black;font-size: 1.5em;margin:0;margin-bottom:0.5rem; width:100%;padding:0.5rem">Next Shows</h3>
+    
+          <a href="https://fb.me/e/3d3RInbSO" class="show">
+            <div class="show-title">Mary's Bleue Moon</div>
+            <div class="show-date">Thursday January 19th 7-9pm</div>
+          </a>
+
+          <a href="https://fb.me/e/2voGriZkQ" class="show">
+            <div class="show-title">The Oaks Restaurant</div>
+            <div class="show-date">Friday January 20th 6-8pm</div>
+          </a>
+
+          <a href="https://fb.me/e/2voGriZkQ" class="show">
+            <div class="show-title">Pagliacci's</div>
+            <div class="show-date">Saturday January 21st 9-11pm</div>
+          </a>
+
+          <a href="https://fb.me/e/37bXwXGec" class="show">
+            <div class="show-title">Robbie Burns Day at Vimy Hall</div>
+            <div class="show-date">Friday January 27th 8pm</div>
+          </a>
+
+          <a href="https://fb.me/e/3Pnyz5N7Y" class="show">
+            <div class="show-title">Mary's Bleue Moon</div>
+            <div class="show-date">Saturday January 28th 8-10pm</div>
+          </a>
+
+          <a href="" class="show">
+            <div class="show-title">Celtic Night at Paul Philips Hall</div>
+            <div class="show-date">Friday February 10th 8-10pm</div>
+          </a>
+
+        <div class="button" id="more-shows-btn"><a href="events.html">MORE</a></div>
+
+      </div>
+    </div>
+    
+ </div>
+
+  <footer>
+    <img src='images/hounds_logo_transparent.png' alt="logo" height="80px" style="margin:20px;">
+    <h3 id="footer-text">hounds.of.cuchulain<wbr>@gmail.com</h3>
+    <!-- <div>
+      <a href="https://www.facebook.com/hounds.of.cuchulain" class="fa fa-facebook"></a>
+      <a href="https://www.youtube.com/channel/UCsQGZCNzqc6KKoYtNb3ojAQ/featured" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/hounds_of_cuchulain/" class="fa fa-instagram"></a>
+    </div> -->
+  </footer>
 
 
   </body>

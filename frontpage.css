@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "AmericanUncial";
+    src: url("American\ Uncial\ Regular/American\ Uncial\ Regular.otf");
+    }
+
+.flex-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+    margin:1vmin;
+    padding: clamp(5px, 2vw, 18px);
+    width: 100%;
+}
+
+.flex-col {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    text-align: left;
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+    margin:1vmin;
+    padding: clamp(5px, 2vw, 18px);
+    width: 50%;
+}
+
+
+#front-page-content {
+    width:auto;
+}
+
+#bandcamp {
+    margin-bottom:1em;
+}
+
+#bandcamp-title {
+    background:black; 
+    font-size: 1em; 
+    margin:0; 
+    width:100%; 
+    padding:0.5rem; 
+    vertical-align:middle;
+}
+
+
+#bandcamp-small {
+    border: 0; 
+    width: 100%;
+    height: 120px;
+    margin:2%;
+    /* border: 10px solid #0d1d1a;  */
+    /* display:none; */
+}
+
+#bandcamp-big {
+    display:none;
+    border: 0; 
+    width: 100%;
+}
+
+#bandcamp-slim {
+    display:none;
+}
+
+#front-page-youtube {
+    margin:0; 
+    border:10px solid #0d1d1a;
+}
+
+#show-row {
+    display:flex; 
+    justify-content:space-around;
+    height:100%; 
+    width:35%;
+    padding:0;
+}
+
+.show-box {
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin:2%;
+    /* margin:1em; */
+    background-color: #0d1d1a;
+    padding:0.5em;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.show {
+    background:rgb(0,0,0,0.5);
+    font-size: 1em;
+    padding:0.75em;
+    margin:0;
+    margin-bottom:0.5em;
+    text-align:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between; */
+    width:100%;
+    /* align-content: center;
+    align-items: center; */
+    vertical-align: middle;
+}
+
+#more-shows-btn {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+    margin:0.5em;
+    padding:0.5em;
+}
+
+.show-title {
+    font-size: 1em;
+    font-weight:600;
+    vertical-align: middle;
+}
+
+.show-date {
+    font-size: 0.9em;
+    font-weight:300;
+}
+
+#news-row {
+    /* height:100%; */
+    /* overflow-y:scroll; */
+    width:50%;
+    background:#0d1d1a;
+    padding:0.5em;
+    margin-top:0.75em;
+    /* background:black; */
+}
+
+.news-box {
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin:2%;
+    background:rgba(0,0,0,0.5);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news-title {
+    font-size: 1.5em;
+    font-weight:400;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    /* font-family: "AmericanUncial"; */
+  }
+
+  .news-text1 {
+    font-size: 1.25rem;
+    font-weight:300;
+    padding: 0.75rem;
+    padding-top:0;
+    padding-bottom:0.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.news-text2 {
+    font-size: 1rem;
+    font-weight:300;
+    padding: 0.75rem;
+    padding-top:0;
+    margin: 0;
+    text-align: center;
+}
+
+#description {
+    /* font-family: "AmericanUncial" !important; */
+    font-family: "El Messiri" !important;
+    margin-bottom:1.5em;
+    border-style:outset;
+    /* border-image-source: url('images/knot-frame.png');
+    border-image-slice: 130 550 130 550;
+    border-image-width: 10 35 10 35;
+    border-image-outset: 0.5em 1em; */
+    border-image-source: url('images/knot-border-horz.png');
+    border-image-slice: 100;
+    border-image-width: 15;
+    border-image-outset: 0.5em;
+    border-image-repeat:round;
+    background-color:transparent;
+    line-height: 1.5em;
+    padding:2.25em;
+}
+
+@media all and (max-width:1100px) {
+    #show-row {
+        width:40%
+    }
+
+    #news-row {
+        width:55%
+    }
+}
+
+@media all and (max-width:750px) {
+    #bandcamp-small {
+        display:none;
+    }
+    #bandcamp-big {
+        display:block;
+    }
+}
+
+@media all and (max-width:650px) {
+    .flex-row {
+        flex-direction: column;
+        width:100%;
+        margin:auto;
+        justify-content: center;
+    }
+
+    .flex-col {
+        width:100%;
+        padding:0;
+        justify-self:center;
+        align-self:center;
+    }
+
+    #news-row {
+        width:100%;
+        margin:0;
+        margin-top:1em;
+    }
+
+    #show-row {
+        width:100%;
+        margin:0;
+        margin-top:1em;
+    }
+  
+    #front-page-content {
+        flex-direction:column-reverse;
+        margin:0;
+        padding:0;
+        flex-wrap:wrap-reverse;
+    }
+
+    #description {
+        margin-left:1em;
+        margin-right:1em;
+        margin-bottom:0.5em;
+        border-image-width: 10;
+        border-image-outset: 0.25em;
+        padding:1.5em;
+    }
+
+    #bandcamp {
+        background:black;
+        margin-bottom:0.5em;
+    }
+
+    #bandcamp-title {
+        background:#0d1d1a;
+        color:black;
+        display:none;
+    }
+
+    #bandcamp-big {
+        display:none;
+    }
+
+    /* #bandcamp-slim {
+        display:block;
+    } */
+
+    #bandcamp-small {
+        display:block;
+        height:120px;
+    }
+
+    .show-box {
+        margin:0;
+        padding:0.75em;
+        justify-content:space-between;
+    }
+
+    .show {
+        width:32%;
+        margin:0;
+        margin-bottom:0.5em;
+    }
+
+    #more-shows-btn {
+        width:32%;
+        margin:0;
+        margin-bottom:0.5em;
+        margin:auto;
+        max-width:200px;
+    }
+
+    footer {
+        background:black;
+        margin-top:0;
+    }
+
+}
+
+@media all and (max-width:600px) {
+    .show {
+        width:49%;
+      }
+    
+      #more-shows-btn {
+        width:49%;
+      }
+
+}
+
+@media all and (max-width:400px) {
+    .show {
+        width:100%;
+      }
+    
+      #more-shows-btn {
+        width:100%;
+      }
+     
+}
