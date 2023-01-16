@@ -23,14 +23,6 @@
     }
 
 header {
-
-
-  /* height: clamp(100px, 20vw, 170px); */
-
-  /* background-size: clamp(100px, 150%, 1500px) auto;
-  background-repeat:no-repeat;
-  background-position-x: 50%;
-  background-position-y: 15%; */
   padding:clamp(8px, 2.5vw, 16px);
   padding-top:clamp(10px, 4vw, 20px);
   padding-bottom: 0;
@@ -38,9 +30,6 @@ header {
   /* font-family: 'AmericanUncial', monospace; */
   font-family: 'IrishUncial', monospace; 
   text-align: center;
-  /* margin-left: -10px;
-  margin-right: -10px;
-  margin-top: -10px; */
   background-color: black;
   
   display: flex;
@@ -51,16 +40,29 @@ header {
   z-index: 100; 
   height:125px; 
   justify-content: space-around;
+
   /* border-bottom: 20px solid #0d1d1a; */
   background-image: url('images/knot_header.png');
-  background-size: 1000px;
+  background-size: 1200px;
   background-position-y: 40%;
   background-position-x: 50%;
+
+  /* border-style:outset;
+  border-image-source: url('images/knot-frame.png');
+  border-image-slice: 130 550 130 550;
+  border-image-width: 20% 10% 20% 10%;
+  border-image-outset: 0;
+  padding-left:8%;
+  padding-right:8%;
+  padding-top:clamp(10px, 3.5vw, 30px);
+  padding-bottom:clamp(10px, 3.5vw, 30px); */
+
+
 }
 
 
 footer {
-  background:hsl(169, 38%, 4%);
+  background:var(--dark-accent-color);
   font-family: 'IrishUncial', monospace; 
   display: flex;
   flex-wrap:nowrap;
@@ -93,6 +95,20 @@ body {
   overflow-x: hidden;
 }
 
+/* .splash-image {
+  text-align: center;
+  background-image: url('images/knot_header-crop2.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position-x:center;
+  color: white;
+
+  width:100%;
+  height: clamp(200px, 50vw, 500px);
+  margin:auto;
+  margin-top:0.5em;
+} */
+
 .splash-image {
   text-align: center;
   /* background-image: url('images/knot_profile-full.png'); */
@@ -102,14 +118,15 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   background-position-x:center;
-  background-position-y: 70%;
+  background-position-y: 50%;
   color: white;
   font-family: 'Cormorant Unicase', monospace;
-
+  margin: 0px -10px 0px -10px;
   width:100%;
   height: clamp(200px, 50vw, 500px);
+  /* opacity: 0.8; */
+  /* max-width:1000px; */
   margin:auto;
-  margin-top:0.5em;
 }
 
 .menu {
@@ -525,6 +542,7 @@ html {
   font-weight:lighter;
   text-align: center;
   font-family: 'Cormorant Unicase';
+  /* font-family: "AmericanUncial"; */
 
 }
 
