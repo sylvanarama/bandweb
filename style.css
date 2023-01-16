@@ -38,9 +38,9 @@ header {
   /* font-family: 'AmericanUncial', monospace; */
   font-family: 'IrishUncial', monospace; 
   text-align: center;
-  margin-left: -10px;
+  /* margin-left: -10px;
   margin-right: -10px;
-  margin-top: -10px;
+  margin-top: -10px; */
   background-color: black;
   
   display: flex;
@@ -89,6 +89,8 @@ body {
   background-repeat:no-repeat;
   background-position-x: 50%; 
   background-position-y: -25em;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .splash-image {
