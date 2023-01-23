@@ -186,12 +186,13 @@
     border-image-outset: 0.5em 1em; */
     border-image-source: url('images/knot-border-horz.png');
     border-image-slice: 100;
-    border-image-width: 15;
+    border-image-width: 30px;
     border-image-outset: 0.5em;
     border-image-repeat:round;
     background-color:transparent;
     line-height: 1.5em;
     padding:2.25em;
+
 }
 
 @media all and (max-width:1100px) {
