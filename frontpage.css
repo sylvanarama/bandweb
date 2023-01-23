@@ -186,7 +186,7 @@
     border-image-outset: 0.5em 1em; */
     border-image-source: url('images/knot-border-horz.png');
     border-image-slice: 100;
-    border-image-width: 30px;
+    border-image-width: 2rem;
     border-image-outset: 0.5em;
     border-image-repeat:round;
     background-color:transparent;
