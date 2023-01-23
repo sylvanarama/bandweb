@@ -247,14 +247,14 @@
         flex-wrap:wrap-reverse;
     }
 
-    /* #description {
+    #description {
         margin-left:1em;
         margin-right:1em;
         margin-bottom:0.5em;
         border-image-width: 10;
         border-image-outset: 0.25em;
         padding:1.5em;
-    } */
+    }
 
     #bandcamp {
         background:black;
