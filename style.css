@@ -96,12 +96,10 @@ body {
 }
 
 .splash-image {
-  text-align: center;
   background-image: url('images/knot_header-crop2.jpg');
-  background-size:cover;
+  background-size:auto 100%;
   background-repeat:no-repeat;
-  background-position-x:center;
-  color: white;
+  background-position-x:50%;
 
   width:auto;
   height: clamp(200px, 50vw, 500px);
