@@ -98,6 +98,9 @@ body {
 .splash-image {
   background-image: url('images/knot_header-crop2.jpg');
   background-size:auto 100%;
+  -webkit-background-size: auto 100%;
+  -o-background-size:	auto 100%;
+  -moz-background-size: auto 100%;
   background-repeat:no-repeat;
   background-position-x:50%;
 
@@ -106,27 +109,21 @@ body {
   margin:auto;
   margin-top:0.5em;
 }
-/* 
-.responsive {
-  width: auto;
-  height: clamp(200px, 50vw, 500px);
-  margin-left: 50%;
-  transform: translateX(-50%);
-} */
 
-/* .splash-image {
-  text-align: center;
-  background-image: url('images/knot_header-crop2.jpg');
-  background-size: clamp(100px, 200%, 2000px) auto;
-  background-repeat:no-repeat;
-  background-position-x:center;
-  background-position-y: 45%;
-  color: white;
-  font-family: 'Cormorant Unicase', monospace;
-  margin: 0px -10px 0px -10px;
-  width:100%;
-  height: clamp(200px, 50vw, 450px);
-  margin:auto;
+
+/* .parent {
+  position: relative;
+  overflow: hidden;
+}
+
+.child {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+
 } */
 
 .menu {
