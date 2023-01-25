@@ -4,7 +4,7 @@
   --med-accent-color:#142f29;
   --dark-accent-color:#0d1d1a;
   --darker-accent-color:hsl(169, 38%, 4%);
-  --light-accent-color: rgb(51, 113, 94);
+  --light-accent-color: #33715e;
 }
 
 * {   
@@ -94,22 +94,6 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
-
-.splash-image {
-  background-image: url('images/knot_header-crop2.jpg');
-  background-size:auto 100%;
-  -webkit-background-size: auto 100%;
-  -o-background-size:	auto 100%;
-  -moz-background-size: auto 100%;
-  background-repeat:no-repeat;
-  background-position-x:50%;
-
-  width:auto;
-  height: clamp(200px, 50vw, 500px);
-  margin:auto;
-  margin-top:0.5em;
-}
-
 
 /* .parent {
   position: relative;

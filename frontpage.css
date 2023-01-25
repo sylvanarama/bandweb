@@ -3,6 +3,21 @@
     src: url("American\ Uncial\ Regular/American\ Uncial\ Regular.otf");
     }
 
+.splash-image {
+    background-image: url('images/knot_header-crop2.jpg');
+    background-size:auto 100%;
+    -webkit-background-size: auto 100%;
+    -o-background-size:	auto 100%;
+    -moz-background-size: auto 100%;
+    background-repeat:no-repeat;
+    background-position-x:50%;
+    
+    width:auto;
+    height: clamp(200px, 50vw, 500px);
+    margin:auto;
+    margin-top:0.5em;
+    }     
+
 .flex-row {
     position: relative;
     display: flex;
@@ -327,5 +342,25 @@
       #more-shows-btn {
         width:100%;
       }
-     
+
+      .splash-image { 
+        background-image: url('images/knot_profile1.jpg');
+        background-size:600px;
+        background-position-y:45%;
+        height:200px;
+        margin:0;
+      }
+
+      /* header {
+        background-color:transparent !important;
+      }
+
+      #description {
+        display:none;
+      }
+
+      #front-page-content {
+        display:none;
+      }
+      */
 }
