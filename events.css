@@ -33,6 +33,20 @@
     font-weight:bold;
   }
 
+  .past-month {
+    font-size: 2rem;
+    font-weight:lighter;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    /* font-family: "AmericanUncial"; */
+    font-family: "IrishUncial";
+    margin-bottom:0;
+    background:rgb(0,0,0,0.3);
+    color:white;
+    font-weight:bold;
+  }
+
 .event-text {
     font-weight:lighter;
     padding: 1rem;
@@ -42,6 +56,20 @@
 
     margin-bottom:0;
     background:hsl(169, 38%, 4%); 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 1.25em;
+    display:block;
+}
+
+.past-event-text {
+    font-weight:lighter;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-right:0.5rem;
+    text-align: center;
+
+    margin-bottom:0;
+    background:rgb(50,50,50,0.5);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-size: 1.25em;
     display:block;
