@@ -563,7 +563,7 @@ html {
   display: inline-block;
   padding: 2%;
   color: white;
-  background-color: #000;
+  background-color:black;
   text-align: center;
   cursor: pointer;
   width: 30%;
@@ -577,6 +577,29 @@ html {
 .button:hover {
   background-color: rgb(50, 50, 50, 0.8);
 }
+
+.white-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1%;
+  color: black;
+  background-color:white;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-family: 'El Messiri';
+  margin:auto;
+  margin:1rem;
+  font-size: 1rem;
+  font-weight:bolder;
+  
+}
+
+.white-button:hover {
+  background-color: rgb(100, 100, 100, 0.5);
+}
+
 
 #bio-row {
   max-width:1250px;
