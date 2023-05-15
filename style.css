@@ -17,9 +17,24 @@
   src: url("American\ Uncial\ Regular/American\ Uncial\ Regular.otf");
   }
 
+@font-face {
+  font-family: "IrishUncial";
+  src: url("irish-uncialfabeta/IrishUncialfabeta-Bold.ttf");
+  }
+    
+@font-face {
+  font-family: "Oseberg";
+  src: url("oseberg/Oseberg.ttf");
+  }
+
+@font-face {
+  font-family: "martel";
+  src: url("martel/martel.ttf");
+  }
+
   @font-face {
-    font-family: "IrishUncial";
-    src: url("irish-uncialfabeta/IrishUncialfabeta-Bold.ttf");
+    font-family: "livingstone";
+    src: url("livingstone/Livingst.ttf");
     }
 
 header {
@@ -28,7 +43,8 @@ header {
   padding-bottom: 0;
   color: white;
   /* font-family: 'AmericanUncial', monospace; */
-  font-family: 'IrishUncial', monospace; 
+  /* font-family: 'IrishUncial', monospace;  */
+  font-family: 'livingstone', monospace; 
   text-align: center;
   background-color: black;
   
@@ -63,7 +79,7 @@ header {
 
 footer {
   background:var(--dark-accent-color);
-  font-family: 'IrishUncial', monospace; 
+  font-family: 'livingstone', monospace; 
   display: flex;
   flex-wrap:nowrap;
   justify-content: flex-start;
@@ -111,7 +127,7 @@ body {
 } */
 
 .menu {
-    font-family: 'IrishUncial';
+    font-family: 'livingstone';
     /* height:100%; */
     float:right;
     display: flex;
@@ -172,9 +188,8 @@ h3 {
   padding: 1rem;
   margin: 0.5rem;
   text-align: center;
-  /* font-family: 'Cormorant Unicase'; */
-  /* font-family: "El Messiri"; */
-  font-family: "AmericanUncial";
+  /* font-family: "AmericanUncial"; */
+  font-family: "livingstone";
 }
 
 h4 {
@@ -199,7 +214,7 @@ ul {
 li {
   display: inline;
   padding: 0px 10px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 p {
@@ -386,7 +401,7 @@ input:focus, textarea:focus {
   width:100vw;
   left:0px;
   padding:5px;
-  font-family:"AmericanUncial";
+  font-family:"livingstone";
   text-transform: lowercase;
 }
 
@@ -567,7 +582,7 @@ html {
   text-align: center;
   cursor: pointer;
   width: 30%;
-  font-family: 'El Messiri';
+  font-family:"Consolas";
   margin:auto;
   margin:1rem;
   font-size: 1rem;
@@ -588,11 +603,12 @@ html {
   text-align: center;
   cursor: pointer;
   width: 30%;
-  font-family: 'El Messiri';
+  font-family:"Consolas";
   margin:auto;
   margin:1rem;
   font-size: 1rem;
   font-weight:bolder;
+  /* text-transform: uppercase; */
   
 }
 
