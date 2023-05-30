@@ -47,7 +47,7 @@
     font-weight:bold;
   }
 
-.event-text {
+.show {
     font-weight:lighter;
     padding: 1rem;
     margin: 0.5rem;
@@ -61,7 +61,15 @@
     display:block;
 }
 
-.past-event-text {
+.show-title {
+    font-weight:bold;
+}
+
+.show-date {
+    font-weight:lighter;
+}
+
+.past-show {
     font-weight:lighter;
     padding: 1rem;
     margin: 0.5rem;
