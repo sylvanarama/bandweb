@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "AmericanUncial";
+    src: url("American\ Uncial\ Regular/American\ Uncial\ Regular.otf");
+    }
+  
+  @font-face {
+    font-family: "IrishUncial";
+    src: url("irish-uncialfabeta/IrishUncialfabeta-Bold.ttf");
+    }
+      
+  @font-face {
+    font-family: "Oseberg";
+    src: url("oseberg/Oseberg.ttf");
+    }
+  
+  @font-face {
+    font-family: "martel";
+    src: url("martel/martel.ttf");
+    }
+  
+    @font-face {
+      font-family: "livingstone";
+      src: url("livingstone/Livingst.ttf");
+      }
+  
