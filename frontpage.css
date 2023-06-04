@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "colours.css";
 
 .splash-image {
     /* background-image: url('images/knot_header-crop2.jpg'); */
@@ -80,7 +81,7 @@
 
 #front-page-youtube {
     margin:0; 
-    border:10px solid #0d1d1a;
+    border:10px solid var(--dark-accent-color);
 }
 
 #show-row {
@@ -97,7 +98,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin:2%;
     /* margin:1em; */
-    background-color: #0d1d1a;
+    background-color: var(--dark-accent-color);
     padding:0.5em;
     display:flex;
     flex-wrap:wrap;
@@ -145,7 +146,7 @@
     /* height:100%; */
     /* overflow-y:scroll; */
     width:50%;
-    background:#0d1d1a;
+    background:var(--dark-accent-color);
     padding:0.5em;
     margin-top:0.75em;
     /* background:black; */
@@ -178,7 +179,7 @@
     font-family: 'Cormorant Unicase';
     font-family: 'Livingstone';
     letter-spacing: 3px;
-    background:#0d1d1a;
+    background:var(--dark-accent-color);
     margin:2%;
   }
 
@@ -327,7 +328,7 @@
     }
 
     #bandcamp-title {
-        background:#0d1d1a;
+        background:var(--dark-accent-color);
         color:black;
         display:none;
     }

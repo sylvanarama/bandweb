@@ -1,0 +1,10 @@
+:root {
+    --main-bg-color: rgb(0,0,0);
+    /* --dark-accent-color: rgb(59, 58, 55); */
+        /* --dark-accent-color:#0d1d1a; */
+    --light-accent-color: hsl(169, 38%, 32%);
+    --med-accent-color:hsl(169, 38%, 18%);
+    --dark-accent-color:hsl(169, 38%, 10%);
+    --darker-accent-color:hsl(169, 38%, 6%);
+  
+  }

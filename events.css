@@ -1,13 +1,5 @@
 * { box-sizing: border-box; }
-
-:root {
-    --main-bg-color: rgb(0,0,0);
-    /* --dark-accent-color: rgb(59, 58, 55); */
-    --med-accent-color:#142f29;
-    --dark-accent-color:#0d1d1a;
-    --light-accent-color: rgb(51, 113, 94);
-    --darker-accent-color:hsl(169, 38%, 4%);
-  }
+@import "colours.css";
 
   @font-face {
     font-family: "AmericanUncial";

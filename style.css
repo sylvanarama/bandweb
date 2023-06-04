@@ -1,10 +1,12 @@
 :root {
   --main-bg-color: rgb(0,0,0);
   /* --dark-accent-color: rgb(59, 58, 55); */
-  --med-accent-color:#142f29;
-  --dark-accent-color:#0d1d1a;
+      /* --dark-accent-color:#0d1d1a; */
+  --light-accent-color: hsl(169, 38%, 32%);
+  --med-accent-color:hsl(169, 38%, 16%);
+  --dark-accent-color:hsl(169, 38%, 8%);
   --darker-accent-color:hsl(169, 38%, 4%);
-  --light-accent-color: #33715e;
+
 }
 
 * {   
@@ -415,11 +417,11 @@ input:focus, textarea:focus {
   margin:5px;
   margin-top:0px;
   /* background-color: rgb(50, 50, 50, 0.5); */
-  background-color: var(--darker-accent-color);
+  background-color: var(--dark-accent-color);
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background:var(--dark-accent-color);}
+.dropdown-content a:hover {background:var(--med-accent-color);}
 
 html {
   box-sizing: border-box;
