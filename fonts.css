@@ -22,4 +22,8 @@
       font-family: "livingstone";
       src: url("livingstone/Livingst.ttf");
       }
-  
+
+    @font-face {
+      font-family: "square";
+      src: url("square/Square.ttf");
+      }

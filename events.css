@@ -13,30 +13,28 @@
 
   .month {
     font-size: 2rem;
-    font-weight:lighter;
     padding: 1rem;
     margin: 0.5rem;
     text-align: center;
     /* font-family: "AmericanUncial"; */
-    font-family: "IrishUncial";
+    font-family: "Livingstone";
     margin-bottom:0;
     background:rgb(51, 113, 94); 
     color:black; 
-    font-weight:bold;
+
   }
 
   .past-month {
     font-size: 2rem;
-    font-weight:lighter;
     padding: 1rem;
     margin: 0.5rem;
     text-align: center;
     /* font-family: "AmericanUncial"; */
-    font-family: "IrishUncial";
+    font-family: "Livingstone";
     margin-bottom:0;
     background:rgb(0,0,0,0.3);
     color:white;
-    font-weight:bold;
+
   }
 
 .show {
@@ -47,7 +45,7 @@
     text-align: center;
 
     margin-bottom:0;
-    background:hsl(169, 38%, 4%); 
+    background:hsl(169, 38%, 5%); 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-size: 1.25em;
     display:block;
@@ -59,6 +57,10 @@
 
 .show-date {
     font-weight:lighter;
+}
+
+.past-month .show {
+    background:rgb(50,50,50,0.5);
 }
 
 .past-show {
