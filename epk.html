@@ -13,6 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=El Messiri' rel='stylesheet'>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -130,7 +131,7 @@
 
     </div>
     
-    <div class="flex-row" style="flex-direction:column; padding:0;margin:0; height:max-content;">
+    <div class="flex-row" style="flex-direction:column; padding:0;margin:0; overflow-y: visible;">
 
         <button class="collapsible">Biographies</button>
           <div class="content">
@@ -265,10 +266,13 @@ The Hounds of Cuchulain have reached their two year anniversary! In that short t
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-          content.style.maxHeight = null;
+        var container = this.parent;
+        if (content.style.height){
+          content.style.height = null;
         } else {
-          content.style.maxHeight = content.scrollHeight + "px";
+        //   content.style.height = content.scrollHeight + "px";
+          content.style.height = "fit-content";
+          container.style.height = container.scrollheight + content.scrollHeight + "px";
         } 
       });
     }
