@@ -68,3 +68,55 @@
   .btn:hover {
     background-color: var(--med-accent-color);
   }
+
+  #wide-format {
+    display: flex;
+  }
+
+  #medium-format {
+    display: none;
+  }
+
+  #mobile-format {
+    display: none;
+  }
+
+  p {
+    line-height:1.2rem;
+    max-width:900px;
+    text-align:left;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    font-weight:lighter;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    background:black;
+    margin-top:2%; 
+    line-height:1.8rem; 
+    word-spacing:2px;
+    font-family:'livingstone';
+  }
+
+  @media all and (max-width:1150px) {
+    #wide-format {
+        display:none;
+    }
+    #medium-format {
+        display:flex;
+    }
+    h5 {
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (max-width:800px) {
+    #medium-format {
+        display:none;
+    }
+    #mobile-format {
+        display:flex;
+    }
+}
