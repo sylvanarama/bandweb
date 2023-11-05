@@ -1,5 +1,6 @@
 * { box-sizing: border-box; }
 @import "colours.css";
+@import "fonts.css";
 
   @font-face {
     font-family: "AmericanUncial";
