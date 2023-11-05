@@ -119,4 +119,9 @@
     #mobile-format {
         display:flex;
     }
+
+    .page-title-full {
+      margin-top:2%;
+      margin-bottom:1%;
+    }
 }
