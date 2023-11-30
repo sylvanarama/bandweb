@@ -325,12 +325,13 @@
     #bandcamp {
         background:black;
         margin-bottom:0.5em;
+        display:block;
     }
 
     #bandcamp-title {
         background:var(--dark-accent-color);
-        color:black;
-        display:none;
+        /* color:black;
+        display:none; */
     }
 
     #bandcamp-big {
@@ -344,16 +345,19 @@
     #bandcamp-small {
         display:block;
         height:120px;
+        width:90%;
+        margin:auto;
+        margin-top:2%;
     }
 
     .show-box {
         margin:0;
         padding:0.75em;
-        justify-content:space-between;
+        justify-content:space-around;
     }
 
     .show {
-        width:32%;
+        width:48%;
         margin:0;
         margin-bottom:0.5em;
     }
@@ -396,7 +400,7 @@
 
 }
 
-@media all and (max-width:400px) {
+@media all and (max-width:450px) {
     .show {
         width:100%;
       }
