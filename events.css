@@ -60,6 +60,12 @@
     font-weight:lighter;
 }
 
+.show-details {
+    font-weight:lighter;
+    font-size:smaller;
+}
+
+
 .past-month .show {
     background:rgb(50,50,50,0.5);
 }
