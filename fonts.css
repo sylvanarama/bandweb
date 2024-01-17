@@ -27,3 +27,25 @@
       font-family: "square";
       src: url("square/Square.ttf");
       }
+
+      @font-face {
+        font-family: "ErikasBuero";
+        src: url("ErikasBuero/ErikasBuero.ttf");
+        }
+
+      @font-face {
+          font-family: "ErikasBuero";
+          src: url("ErikasBuero/ErikasBueroBold.ttf");
+          font-weight: bold;
+      }
+      /* @font-face {
+          font-family: "ErikasBuero";
+          src: url("ErikasBuero/ErikasBuero_I.ttf");
+          font-style: italic;
+      } */
+      /* @font-face {
+          font-family: "ErikasBuero";
+          src: url("ErikasBuero/ErikasBuero_B_I.ttf");
+          font-weight: bold;
+          font-style: italic;
+      } */

@@ -113,7 +113,8 @@
     margin:0;
     margin-bottom:0.5em;
     text-align:left;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* display:flex;
     flex-wrap:wrap;
     flex-direction:row;
@@ -125,7 +126,7 @@
 }
 
 #more-shows-btn {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width:100%;
     margin:0.5em;
     padding:0.5em;
@@ -159,7 +160,7 @@
     margin:2%;
     margin-bottom:3%;
     background:rgba(0,0,0,0.5);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top:1%;
 }
 
@@ -209,7 +210,7 @@
     text-align: center;
     font-family: "Consolas";
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family:'El Messiri';
+    font-family:'Courier New','El Messiri';
 }
 
 .news-text2 {
@@ -222,7 +223,7 @@
     text-align: center;
     font-family: "Consolas";
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family:'El Messiri';
+    font-family:'Courier New','El Messiri';
 }
 
 .timestamp {

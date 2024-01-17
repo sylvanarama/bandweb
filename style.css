@@ -1,3 +1,6 @@
+@import "fonts.css";
+@import "colours.css";
+
 :root {
   --main-bg-color: rgb(0,0,0);
   /* --dark-accent-color: rgb(59, 58, 55); */
@@ -14,7 +17,7 @@
   padding: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: "AmericanUncial";
   src: url("American\ Uncial\ Regular/American\ Uncial\ Regular.otf");
   }
@@ -37,7 +40,7 @@
   @font-face {
     font-family: "livingstone";
     src: url("livingstone/Livingst.ttf");
-    }
+    } */
 
 header {
   padding:clamp(8px, 2.5vw, 16px);
@@ -59,7 +62,7 @@ header {
   height:125px; 
   justify-content: space-around;
 
-  /* border-bottom: 20px solid #0d1d1a; */
+  border-bottom: 10px solid black; 
   background-image: url('images/knot_header.png');
   background-size: 1200px;
   background-position-y: 40%;
@@ -102,7 +105,8 @@ footer {
 
 body {
   background-color: var(--main-bg-color);
-  font-family: 'El Messiri';
+  font-family: 'Courier New', 'ErikasBuero';
+  font-weight: lighter;
   color: white;
   /* background-image: url('images/hounds-profile-wide1.png'); */
   background-size: clamp(100px, 150%, 1000px) auto;
@@ -539,7 +543,7 @@ html {
   font-size: clamp(30px, 10vw, 50px);
   font-weight:lighter;
   text-align: center;
-  font-family: 'Cormorant Unicase';
+  font-family:'livingstone', 'Cormorant Unicase';
   /* font-family: "AmericanUncial"; */
 
 }
