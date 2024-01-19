@@ -1,17 +1,6 @@
 @import "fonts.css";
 @import "colours.css";
 
-:root {
-  --main-bg-color: rgb(0,0,0);
-  /* --dark-accent-color: rgb(59, 58, 55); */
-      /* --dark-accent-color:#0d1d1a; */
-  --light-accent-color: hsl(169, 38%, 32%);
-  --med-accent-color:hsl(169, 38%, 16%);
-  --dark-accent-color:hsl(169, 38%, 8%);
-  --darker-accent-color:hsl(169, 38%, 4%);
-
-}
-
 * {   
   margin: 0;
   padding: 0;
@@ -46,7 +35,7 @@ header {
   padding:clamp(8px, 2.5vw, 16px);
   padding-top:clamp(10px, 4vw, 20px);
   padding-bottom: 0;
-  color: white;
+  color: rgb(235,235,235);
   /* font-family: 'AmericanUncial', monospace; */
   /* font-family: 'IrishUncial', monospace;  */
   font-family: 'livingstone', monospace; 
@@ -105,9 +94,9 @@ footer {
 
 body {
   background-color: var(--main-bg-color);
-  font-family: 'Courier New', 'ErikasBuero';
+  font-family: 'cmu', 'ErikasBuero';
   font-weight: lighter;
-  color: white;
+  color: rgb(235,235,235);
   /* background-image: url('images/hounds-profile-wide1.png'); */
   background-size: clamp(100px, 150%, 1000px) auto;
   background-repeat:no-repeat;
@@ -142,7 +131,7 @@ body {
 }
 
 a {
-  color: white;
+  color: rgb(235,235,235);
   text-decoration: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -168,7 +157,7 @@ h1 {
   /* margin: 2vw; */
   /* padding:2vw; */
   text-align:left;
-  white-space: nowrap;
+  rgb(235,235,235)-space: nowrap;
   /* height:100%; */
   /* background: url('images/houndsknot.png');
   background-size: clamp(100px, 100%, 1000px) auto;
@@ -242,7 +231,7 @@ p {
   max-height: 315px;
   max-width: 580px;
   font-family: 'El Messiri';
-  color: white;
+  color: rgb(235,235,235);
   background-color: var(--dark-accent-color);
 } */
 
@@ -310,7 +299,7 @@ textarea {
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
-  background-color:white;
+  background-color:rgb(235,235,235);
 }
 
 #button-green{
@@ -319,7 +308,7 @@ input:focus, textarea:focus {
   border: #fbfbfb solid 2px;
   cursor:pointer;
   background-color: var(--dark-accent-color);
-  color:white;
+  color:rgb(235,235,235);
   font-family: 'El Messiri';
   font-size:24px;
   padding-top:22px;
@@ -331,7 +320,7 @@ input:focus, textarea:focus {
 }
 
 #button-green:hover{
-  background-color: white;
+  background-color: rgb(235,235,235);
   color: var(--dark-accent-color);
 }
 
@@ -413,7 +402,7 @@ input:focus, textarea:focus {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: white;
+  color: rgb(235,235,235);
   font-size:0.9rem;
   padding: 10px;
   text-decoration: none;
@@ -437,7 +426,7 @@ html {
 
 .row {
   text-align: center;
-  color: white;
+  color: rgb(235,235,235);
   display:flex;
   flex-wrap:wrap;
   flex-direction:row;
@@ -498,14 +487,14 @@ html {
   /* padding: 10px; */
   text-align: center;
   background-color: var(--dark-accent-color);
-  color: white;
+  color: rgb(235,235,235);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin:2%;
 }
 
 .page-title-full {
   text-align: center;
-  color: white;
+  color: rgb(235,235,235);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin:0;
   margin-bottom:2%;
@@ -552,7 +541,7 @@ html {
   /* padding: 10px; */
   text-align: center;
   background-color: #3b3a3771;
-  color: white;
+  color: rgb(235,235,235);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin:2%;
   max-width:600px;
@@ -571,7 +560,7 @@ html {
 }
 
 .title {
-  color: white;
+  color: rgb(235,235,235);
   font-family: 'Cormorant Unicase';
   font-size: 1rem;
   margin:0;
@@ -583,7 +572,7 @@ html {
   outline: 0;
   display: inline-block;
   padding: 2%;
-  color: white;
+  color: rgb(235,235,235);
   background-color:black;
   text-align: center;
   cursor: pointer;
@@ -599,13 +588,13 @@ html {
   background-color: rgb(50, 50, 50, 0.8);
 }
 
-.white-button {
+.rgb(235,235,235)-button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 1%;
   color: black;
-  background-color:white;
+  background-color:rgb(235,235,235);
   text-align: center;
   cursor: pointer;
   width: 30%;
@@ -618,7 +607,7 @@ html {
   
 }
 
-.white-button:hover {
+.rgb(235,235,235)-button:hover {
   background-color: rgb(100, 100, 100, 0.5);
 }
 

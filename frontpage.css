@@ -94,7 +94,7 @@
 
 .show-box {
     text-align: center;
-    color: white;
+    color: rgb(235,235,235);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin:2%;
     /* margin:1em; */
@@ -114,7 +114,7 @@
     margin-bottom:0.5em;
     text-align:left;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: 'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'cmu','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* display:flex;
     flex-wrap:wrap;
     flex-direction:row;
@@ -126,7 +126,7 @@
 }
 
 #more-shows-btn {
-    font-family:'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'cmu','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width:100%;
     margin:0.5em;
     padding:0.5em;
@@ -155,12 +155,12 @@
 
 .news-box {
     text-align: center;
-    color: white;
+    color: rgb(235,235,235);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin:2%;
     margin-bottom:3%;
     background:rgba(0,0,0,0.5);
-    font-family:'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'cmu','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top:1%;
 }
 
@@ -210,7 +210,7 @@
     text-align: center;
     font-family: "Consolas";
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family:'Courier New','El Messiri';
+    font-family:'cmu','El Messiri';
 }
 
 .news-text2 {
@@ -223,7 +223,7 @@
     text-align: center;
     font-family: "Consolas";
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family:'Courier New','El Messiri';
+    font-family:'cmu','El Messiri';
 }
 
 .timestamp {

@@ -20,7 +20,7 @@
     /* font-family: "AmericanUncial"; */
     font-family: "Livingstone";
     margin-bottom:0;
-    background:rgb(51, 113, 94); 
+    background:var(--light-accent-color); 
     color:black; 
 
   }
@@ -33,8 +33,8 @@
     /* font-family: "AmericanUncial"; */
     font-family: "Livingstone";
     margin-bottom:0;
-    background:rgb(0,0,0,0.3);
-    color:white;
+    background:var(--light-grey);
+    color:whitesmoke;
 
   }
 
@@ -46,8 +46,8 @@
     text-align: center;
 
     margin-bottom:0;
-    background:hsl(169, 38%, 5%); 
-    font-family:'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background:var(--dark-accent-color); 
+    font-family:'cmu','Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-size: 1.25em;
     display:block;
 }
@@ -78,8 +78,8 @@
     text-align: center;
 
     margin-bottom:0;
-    background:rgb(50,50,50);
-    font-family:'Courier New','Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background:var(--medium-grey);
+    font-family:'cmu','Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-size: 1.25em;
     display:block;
 }
@@ -116,7 +116,7 @@
     padding:clamp(8px, 1vw, 20px);
     /* font-weight:lighter; */
     text-align: center;
-    font-family:'Courier New', 'El Messiri';
+    font-family:'cmu', 'El Messiri';
     display:flex;
     align-items:center;
     justify-content: space-evenly;
@@ -151,7 +151,7 @@ p {
 
   .caption {
     font-style: italic;
-    font-family:'Courier New','Raleway';
+    font-family:'cmu','Raleway';
     display: block;
     margin-left: auto;
     margin-right: auto;

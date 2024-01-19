@@ -38,14 +38,17 @@
           src: url("ErikasBuero/ErikasBueroBold.ttf");
           font-weight: bold;
       }
-      /* @font-face {
-          font-family: "ErikasBuero";
-          src: url("ErikasBuero/ErikasBuero_I.ttf");
-          font-style: italic;
-      } */
-      /* @font-face {
-          font-family: "ErikasBuero";
-          src: url("ErikasBuero/ErikasBuero_B_I.ttf");
+      @font-face {
+        font-family: "cmu";
+        src: url("cmu/cmuntt.ttf");
+    } 
+      @font-face {
+          font-family: "cmu";
+          src: url("cmu/cmuntb.ttf");
           font-weight: bold;
+      }
+      @font-face {
+          font-family: "cmu";
+          src: url("cmu/cmunit.ttf");
           font-style: italic;
-      } */
+      }
