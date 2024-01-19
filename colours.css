@@ -1,21 +1,21 @@
 :root {
     --main-bg-color: rgb(0,0,0);
-    --light-accent-color: hsl(170, 35%, 32%);
-    --med-accent-color:hsl(170, 37%, 20%);
-    --dark-accent-color:hsl(170, 38%, 12%);
-    --darker-accent-color:hsl(170, 38%, 8%);
+    --light-accent-color: hsl(170, 20%, 35%);
+    --med-accent-color:hsl(170, 25%, 25%);
+    --dark-accent-color:hsl(170, 25%, 15%);
+    --darker-accent-color:hsl(170, 25%, 10%);
     --light-grey:hsl(170,5%,30%);
     --medium-grey:hsl(170,5%,22%);
     --dark-grey:hsl(170,5%,14%);
-  
   }
 
   /* :root {
     --main-bg-color: rgb(0,0,0);
-    --lighter-accent-color: #84a98c;
-    --light-accent-color: #84a98c;
-    --med-accent-color:#52796f;
-    --dark-accent-color:#354f52;
-    --darker-accent-color:#2f3e46;
-  
+    --light-accent-color:hsl(133, 18%, 59%);
+    --med-accent-color:hsl(165, 19%, 40%);
+    --dark-accent-color:hsl(186, 21%, 26%);
+    --darker-accent-color:hsl(201, 20%, 23%);
+    --light-grey:hsl(97, 13%, 80%);
+    --medium-grey:hsl(200, 6%, 51%);
+    --dark-grey:hsl(200, 9%, 38%);
   } */
