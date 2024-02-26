@@ -619,7 +619,16 @@ html {
 }
 
 #biocol {
-  border: 10px solid var(--dark-accent-color);
+  /* border: 5px solid var(--dark-accent-color); */
+  background-color: var(--dark-accent-color);
+  flex-wrap: wrap;
+  width:16%;
+}
+
+@media screen and (max-width:1000px) {
+  #biocol {
+    width:32%;
+  }
 }
 
 @media screen and (max-width:670px) {
