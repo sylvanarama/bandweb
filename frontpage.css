@@ -3,7 +3,7 @@
 
 .splash-image {
     /* background-image: url('images/knot_header-crop2.jpg'); */
-    background-image: url('images/knot_profile-feb2024-1.jpg');
+    background-image: url('images/knot_profile-feb2024-2.jpg');
     background-size:auto 100%;
     -webkit-background-size: auto 100%;
     -o-background-size:	auto 100%;
@@ -411,9 +411,9 @@
       }
 
       .splash-image { 
-        background-image: url('images/knot_profile-mobile1.png');
+        background-image: url('images/knot-profile-mobile-7.png');
         background-size:100%;
-        height:250px;
+        height:325px;
         margin:0;
       }
 
