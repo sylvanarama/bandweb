@@ -261,6 +261,45 @@
 
 }
 
+.fa {
+    /* padding: 20px; */
+    font-size: 30px;
+    width: 50px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+    align-self:center;
+    align-content:center;
+    align-items:center;
+    padding-top:10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: whitesmoke;
+    color: black;
+  }
+  
+  .fa-youtube {
+    background: whitesmoke;
+    color: black;
+  }
+  
+  .fa-instagram {
+    background: whitesmoke;
+    color: black;
+  }
+
+  .fa-bandcamp {
+    background: whitesmoke;
+    color: black;
+  }
+
 @media all and (max-width:1100px) {
     #show-row {
         width:40%
