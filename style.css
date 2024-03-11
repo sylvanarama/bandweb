@@ -79,12 +79,27 @@ footer {
   justify-content: flex-start;
   align-items: center;
   height:125px;
+
   padding:1em;
   position:static;
   bottom:0px;
   width:100%;
   margin-top:1em;
 }
+
+/* footer {
+  background:var(--dark-accent-color);
+  font-family: 'livingstone', monospace; 
+  display: flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content: space-between;
+  justify-items: center;
+  padding:1em;
+  position:static;
+  bottom:0px;
+  width:100%;
+} */
 
 #footer-text {
   font-size: clamp(15px, 4vw, 2rem);
@@ -219,6 +234,46 @@ p {
   /* padding:1rem; */
   margin:1rem;
   /* margin: */
+}
+
+
+.fa {
+  /* padding: 20px; */
+  font-size: 30px;
+  width: 50px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 10px;
+  align-self:center;
+  align-content:center;
+  align-items:center;
+  padding-top:10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: whitesmoke;
+  color: black;
+}
+
+.fa-youtube {
+  background: whitesmoke;
+  color: black;
+}
+
+.fa-instagram {
+  background: whitesmoke;
+  color: black;
+}
+
+.fa-bandcamp {
+  background: whitesmoke;
+  color: black;
 }
 /* iframe {
   position: relative;
@@ -625,9 +680,17 @@ html {
   width:16%;
 }
 
+
+
 @media screen and (max-width:1000px) {
   #biocol {
     width:32%;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  footer {
+    justify-content: center;
   }
 }
 
