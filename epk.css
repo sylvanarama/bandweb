@@ -100,7 +100,7 @@
     font-family:'livingstone';
   }
 
-  @media all and (max-width:1150px) {
+  @media all and (max-width:1400px) {
     #wide-format {
         display:none;
     }
