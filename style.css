@@ -643,6 +643,28 @@ html {
   background-color: rgb(50, 50, 50, 0.8);
 }
 
+
+.white-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 2%;
+  color:black;
+  background-color:whitesmoke;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-family:"Consolas";
+  margin:auto;
+  margin:1rem;
+  font-size: 1rem;
+  
+}
+
+.white-button:hover {
+  background-color: var(--dark-accent-color);
+}
+
 .rgb(235,235,235)-button {
   border: none;
   outline: 0;
