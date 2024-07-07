@@ -54,6 +54,9 @@
 
 .show-title {
     font-weight:bold;
+    font-size: larger;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
 }
 
 .show-date {
