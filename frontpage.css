@@ -278,7 +278,8 @@
     align-self:center;
     align-content:center;
     align-items:center;
-    padding-top:10px;
+    padding-bottom: 10px;
+    /* padding-top:10px; */
   }
   
   .fa:hover {
