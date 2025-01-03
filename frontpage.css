@@ -58,6 +58,7 @@
     width:100%; 
     padding:0.5rem; 
     vertical-align:middle;
+    font-family: "livingstone";
 }
 
 
@@ -78,6 +79,28 @@
 
 #bandcamp-slim {
     display:none;
+}
+
+#bandcamp-wide {
+    display:block;
+    width:100%;
+}
+
+#bandcamp-wide-player {
+    border: 0; 
+    width: 100%;
+    height: 120px;
+    margin:2%;
+    display:block;
+    height:120px;
+    margin:auto;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+    
+#bandcamp-collapsible {
+    display:none;
+    width:100%;
 }
 
 #front-page-youtube {
@@ -250,7 +273,7 @@
 #description {
     /* font-family: "AmericanUncial" !important; */
     font-family: "Consolas" !important;
-    margin-bottom:1.5em;
+    margin-bottom:1em;
     border-style:outset;
     /* border-image-source: url('images/knot-frame.png');
     border-image-slice: 130 550 130 550;
@@ -267,20 +290,26 @@
 
 }
 
+#social-icons {
+    margin:auto; 
+    text-align:center; 
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:1em;
+}
+
 .fa {
-    /* padding: 20px; */
     font-size: 30px;
-    width: 50px;
-    height:50px;
+    width:50px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
-    margin: 10px;
+    border-radius: 20%;
+    margin: 1%;
     align-self:center;
-    align-content:center;
+    align-content:space-around;
     align-items:center;
     padding-bottom: 10px;
-    /* padding-top:10px; */
   }
   
   .fa:hover {
@@ -305,6 +334,10 @@
   .fa-bandcamp {
     background: whitesmoke;
     color: black;
+  }
+
+  #upcoming-shows {
+    margin-bottom:1em;
   }
 
   .collapsible {
@@ -367,14 +400,38 @@
     #news-row {
         width:55%
     }
+
+    #bandcamp-wide{
+        display:none;
+    }
+
+    #bandcamp-collapsible {
+        display:block;
+    }
+
 }
 
-@media all and (max-width:750px) {
+@media all and (min-width:1100px) {
+
+    #bandcamp-wide{
+        display:block;
+    }
+
+    #bandcamp-collapsible {
+        display:none;
+    }
+}
+
+@media all and (min-width:650px) {
     #bandcamp-small {
         display:none;
     }
     #bandcamp-big {
         display:block;
+        width:90%;
+        margin:auto;
+        margin-top:2%;
+        margin-bottom:2%;
     }
 }
 
@@ -422,24 +479,27 @@
     }
 
     #bandcamp {
-        background:black;
+        /* background:black;
         margin-bottom:0.5em;
-        display:block;
+        display:block; */
+        margin:2%;
+        margin-bottom:1%;
     }
 
-    #bandcamp-title {
-        background:var(--dark-accent-color);
-        /* color:black;
-        display:none; */
+    #donate {
+        margin:2%;
+        margin-bottom:1%;
     }
+
+    /* #bandcamp-title {
+        background:var(--dark-accent-color);
+        color:black;
+        display:none;
+    } */
 
     #bandcamp-big {
         display:none;
     }
-
-    /* #bandcamp-slim {
-        display:block;
-    } */
 
     #bandcamp-small {
         display:block;
@@ -447,6 +507,12 @@
         width:90%;
         margin:auto;
         margin-top:2%;
+        margin-bottom:2%;
+    }
+
+    #donate {
+        margin:2%;
+        margin-bottom:1%;
     }
 
     .show-box {
@@ -516,6 +582,22 @@
         margin:0;
       }
 
+      #bandcamp-big {
+        display:block;
+        width:90%;
+        margin:auto;
+        margin-top:2%;
+        margin-bottom:2%;
+    }
+
+    #bandcamp-small {
+        display:none;
+    }
+
+    #bandcamp-slim {
+        display:none;
+    }
+
       /* header {
         background-color:transparent !important;
       }
@@ -539,4 +621,6 @@
         padding-left:30px;
         padding-right:30px;
       }
+
+      
 }
